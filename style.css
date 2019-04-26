@@ -52,10 +52,11 @@ body {
 }
 
 h1 {
-    font-family: 'Kalam', cursive;
+    font-family: 'Gaegu', cursive;
+    letter-spacing: -0.1rem;
     color: #E33800;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 54px;
 }
 
 #highlight {
@@ -64,9 +65,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Kalam', cursive;
+    font-family: 'Gaegu', cursive;
+    letter-spacing: -0.075rem;
     color: #E33800;
-    font-size: 36px;
+    font-weight: bold;
+    font-size: 44px;
     margin-bottom: 1rem;
 }
 
