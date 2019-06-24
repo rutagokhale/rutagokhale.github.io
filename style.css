@@ -94,6 +94,12 @@ h3 {
     background-color: #ffffff;
 }
 
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+
 .card-text {
     margin-top: -0.2rem;
     font-size: 18px;
