@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-  <title>Ruta Gokhale Website</title>
+  <title>Ruta Gokhale's Portfolio</title>
   <meta charset = "utf-8">
   <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit=no">
 
@@ -18,14 +18,14 @@
   <!--Bootstrap Files-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Gaegu:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
 
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <link rel = "icon" href = "Assets/Images/logo.ico">
+  <link rel = "icon" href = "Images/logo.ico">
 
 </head>
 
@@ -35,7 +35,7 @@
 
     <nav class = "navbar navbar-expand-sm fixed-top navbar-light">
         <a class = "navbar-brand" href = "#">
-            <img src = "Assets/Images/logo.png" class = "img-fluid" width = "30" height = "30" alt = "website logo"></img>
+            <img src = "Images/logo.png" class = "img-fluid" width = "30" height = "30" alt = "website logo"></img>
         </a>
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,10 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarItems">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link mx-3" href = "#projects">Projects</a>
+              <a class="nav-link mx-3" href = "About/about-me.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-3" href="Assets/Resume_RutaGokhale.pdf" target = "_blank">Resume</a>
+              <a class="nav-link mx-3" href = "#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="Resume_RutaGokhale.pdf" target = "_blank">Resume</a>
             </li>
           </ul>
         </div>
@@ -57,122 +60,88 @@
     <div class = "spacer">
     </div>
 
+
     <div class = "jumbotron jumbotron-fluid" id = "intro-section">
-        <div class = "row d-flex justify-content-center">
-
-                <div class="col-sm-2 m-1">
-                    <img src = "Assets/Images/ruta.png" class = "img-fluid d-block" width = 75% height = 75% alt="Ruta Gokhale photo" id = "profile-photo">
+        <div class = "d-flex justify-content-center">
+                <div class="col-md-6">
+                    <p>Hey there! I am</p>
+                    <a href="About/about-me.html">
+                        <h1 class="title">Ruta Gokhale</h1> 
+                    </a>
+                    <div class = "small-spacer">
+                    </div>
+                    <p>a User Experience Designer with 3 years of experience in designing enterprise software.</p>
                 </div>
-                <div class="col-sm-6 m-1">
-                    <h1>Ruta Gokhale</h1>
-                    <p><span id = "highlight">Hi there! I am an Experience Designer. I advocate for human-centered design.</span></p>
-                    <p>Design is a process, not a result. It is a mindset that helps you find the right solution to the right problem.</p>
-                </div>
-        </div>
-
-        <div class = "row d-flex justify-content-center">
-            <div class="col-sm-8 m-1">
-                <p>Every design choice that I make is in the interest of solving user’s problem. Often times, these problems come with their share of constraints, be it technical limitations or business goals. My job as a designer is to achieve the perfect balance while creating a positive experience for the user. And therefore, I believe two things are most essential to the craft of UX – empathy for the user and exploring creativity within the box.</p>
-                <p>I completed my bachelors in Computer Science from University of Pune, India. I then pursued a career in design and graduated from University of Michigan with a masters in Human-Computer Interaction. I work as a User Experience Designer at Thomson Reuters, designing for and improving the experience of enterprise products. Prior to that, I worked as a High-Tech Anthropologist® at Menlo Innovations, to create worthwhile products and experiences for clients and their users.</p>
-                <p>Apart from work, I like painting with acrylics, travelling where I haven't been, and binge watching TV shows! I also pen down my thoughts about design and other projects through <a target="_blank" href="https://medium.com/@rutagokhale" id = "link">Medium posts</a>. Get in touch and say hi, I am always down for a cup of coffee! Alternatively, you can connect with me through email at <a target="_blank" href="mailto:ruta.gokhale6@gmail.com" id = "link">ruta.gokhale6@gmail.com</a> or <a target="_blank" href="https://www.linkedin.com/in/rutagokhale/" id = "link">LinkedIn</a>.</p>
-            </div>
         </div>
     </div>
 
-    <div id = "medium">
+    <div id = "work">
     </div>
     <div class = "small-spacer">
     </div>
 
-    <div class = "container container-fluid" id = "project-container">
+    <div class = "d-flex justify-content-center">
+        <h2>Work</h2>
+    </div>
+
+    <div class = "small-spacer">
+    </div>
+
+    <div class = "container container-fluid">
+
         <div class = "d-flex justify-content-center">
-            <h2>UX Projects</h2>
-        </div>
+            <div class = "small-spacer">
+            </div>
+        
+            <div class="col-md-10">
 
-        <div class = "row d-flex justify-content-center">
-            <div class = "card-deck col-md-10">
+                <div class = "card m-2">
+                    <a href = "Work/thomson-reuters.html">
+                        <img src = "Images/thomsonreuterscover.png" class = "card-img-top img-fluid" alt = "Thomson Reuters project thumbnail">
+                        <div class="card-body">
+                            <h3 class = "card-title">Thomson Reuters</h3>
+                            <p class = "card-text">UX Designer working on web-based, tax and accounting software.</p>
+                        </div>
+                    </a>
+                </div>
 
-                <div class = "card m-3">
-                    <a href = "TrueSafeConnect/truesafe-connect.html">
-                        <img src = "Assets/Images/truesafeconnect-thumbnail.png" class = "card-img-top img-fluid" alt = "Sage and Grace project thumbnail">
+                <div class = "small-spacer">
+                </div>
+                <div class = "small-spacer">
+                </div>
+                <div class = "small-spacer">
+                </div>
+
+                <div class = "card m-2">
+                    <a href = "Work/menlo-innovations.html">
+                        <img src = "Images/menloinnovationscover.png" class = "card-img-top img-fluid" alt = "Menlo project thumbnail">
+                        <div class="card-body">
+                            <h3 class = "card-title">Menlo Innovations</h3>
+                            <p class = "card-text">Product Designer at an agency designing for B2B software.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class = "small-spacer">
+                </div>
+                <div class = "small-spacer">
+                </div>
+                <div class = "small-spacer">
+                </div>
+
+                <div class = "card m-2">
+                    <a href = "Work/truesafe-connect.html">
+                        <img src = "Images/truesafeconnectcover.png" class = "card-img-top img-fluid" alt = "Thomson Reuters project thumbnail">
                         <div class="card-body">
                             <h3 class = "card-title">TrueSafe Connect</h3>
-                            <p class = "card-text">I designed an interactive prototype for a mobile app to track fire and gas sensors that was launched in Play store.</p>
+                            <p class = "card-text">Wireframes for a mobile app that tracks fire and gas sensors, and is hosted on the Play Store.</p>
                         </div>
                     </a>
                 </div>
-                <div class = "card m-3">
-                    <a href = "MiServerReview/miserver-review.html">
-                        <img src = "Assets/Images/miserver-thumbnail.png" class = "card-img-top img-fluid" alt = "True safe Connect project thumbnail">
-                        <div class="card-body">
-                            <h3 class = "card-title">MiServer Review</h3>
-                            <p class = "card-text">I led customer interviews to improve a service offered and managed by University of Michigan IT Services.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class = "card m-3">
-                    <a href = "Sage&Grace/sage-and-grace.html">
-                        <img src = "Assets/Images/sageandgrace-thumbnail.png" class = "card-img-top img-fluid" alt = "Media Burn Archive project thumbnail">
-                        <div class="card-body">
-                            <h3 class = "card-title">Sage & Grace</h3>
-                            <p class = "card-text">I conducted user discovery to design wireframes for the website of a funeral planning service.</p>
-                        </div>
-                    </a>
-                </div>
+                
             </div>
         </div>
-    </div>
-
-    <div id = "dataviz">
-    </div>
-    <div class = "spacer">
-    </div>
-
-    <div class = "container container-fluid" id = "project-container">
-        <div class = "d-flex justify-content-center">
-            <h2>Data Visualizations</h2>
-        </div>
-
-        <div class = "d-flex justify-content-center">
-            <p>I create visualizations and art to better understand and interpret, data and information. View more dataviz projects <a href="DataViz/data-visualizations.html" id = "link">here</a>.</p>
-        </div>
-
-
-        <div class = "row d-flex justify-content-center">
-            <div class = "card-deck col-md-10">
-
-                <div class = "card">
-                    <a target="_blank" href = "https://towardsdatascience.com/the-data-is-in-the-art-b97cf2ceda7c?source=friends_link&sk=b71bd6f3c8b4983596d1ac58d762b80e">
-                        <img src = "Assets/Images/millennialadult.png" class = "card-img-top img-fluid" alt = "Medium articles thumbnail">
-                        <div class="card-body">
-                            <h4 class = "card-title">Hand drawn DataViz</h4>
-                            <p class = "card-text">I used colors, shapes, and doodles to understand soft and small data collected from my friends.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class = "card">
-                    <a target="_blank" href = "https://heated.medium.com/i-stopped-eating-cereal-and-heres-why-32da3a90a522">
-                        <img src = "Assets/Images/cereal.jpg" class = "card-img-top img-fluid" alt = "Medium articles thumbnail">
-                        <div class="card-body">
-                            <h4 class = "card-title">Storytelling using Data</h4>
-                            <p class = "card-text">I did a data-visual investigation into the health and nutrition of ready-to-eat breakfast cereals.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class = "card">
-                    <a target="_blank" href = "https://towardsdatascience.com/a-designers-guide-to-visualize-a-text-dataset-1d534756e914">
-                        <img src = "Assets/Images/theoffice.png" class = "card-img-top img-fluid" alt = "Lotka Volterra equations thumbnail">
-                        <div class="card-body">
-                            <h4 class = "card-title">Visualizing a Text Dataset</h4>
-                            <p class = "card-text">I built a visualization  from the text dataset of The Office episodes.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
+    
     </div>
 
 
@@ -185,7 +154,7 @@
     <div class = "jumbotron jumbotron-fluid text-center" id = "page-footer">
         <footer class = "footer">
             <div class = "container-fluid">
-                <p class = "text-center" id = "text-footer">&copy; 2019 Ruta Gokhale. All rights reserved.</p>
+                <p class = "text-center" id = "text-footer">&copy; 2021 Ruta Gokhale. All rights reserved.</p>
             </div>
         </footer>
     </div>
