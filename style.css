@@ -1,0 +1,138 @@
+
+.navbar {
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    height: 3rem;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+button.navbar-toggler.navbar-toggler-right {
+    border-radius: 0px;
+    border-color: #707070;
+}
+
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #707070;
+}
+
+.navbar .navbar-collapse .navbar-nav li > a:hover {
+    font-size: 19px;
+    border-bottom: 3px solid #3d3d3d;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3d3d3d;
+    overflow-x: hidden;
+}
+
+.spacer {
+    height: 5rem;;
+}
+
+.small-spacer {
+    height: 1rem;
+}
+
+#intro-section {
+    background-color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    color: #d8574a;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: -0.2rem;
+}
+
+.title:hover {
+    transform: scale(1.03);
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: #707070;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-body {
+    margin: -0.5rem;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+#header-container {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    background-color: #ffffff;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#link {
+    text-decoration: underline;
+}
+
+.card {
+    border: none;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-bottom: 0.5px solid #aeaeae;
+}
+
+#page-footer {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0px;
+}
+
+#text-footer {
+    margin: 0px;
+    font-size: 16px;
+}
