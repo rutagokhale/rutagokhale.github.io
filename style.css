@@ -126,8 +126,8 @@ a:hover {
     border: none;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    margin-left: 0.375rem;
-    margin-right: 0.375rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .card-img-top {
